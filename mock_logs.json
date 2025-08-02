@@ -1,0 +1,88 @@
+{
+  "devices": [
+    {
+      "mac": "a4:5e:60:12:34:56",
+      "signal_strength": -65,
+      "ssids": ["Guest_WiFi", "Cafe_Network"],
+      "first_seen": "2025-08-02T10:15:30Z",
+      "last_seen": "2025-08-02T15:45:22Z",
+      "device_type": "smartphone",
+      "zone": "Lobby"
+    },
+    {
+      "mac": "b8:27:eb:89:ab:cd",
+      "signal_strength": -72,
+      "ssids": ["Work_Network", "Guest_WiFi"],
+      "first_seen": "2025-08-02T11:20:15Z",
+      "last_seen": "2025-08-02T14:30:45Z",
+      "device_type": "laptop",
+      "zone": "Shop"
+    },
+    {
+      "mac": "f4:f2:6d:cd:ef:01",
+      "signal_strength": -85,
+      "ssids": ["Cafe_Network"],
+      "first_seen": "2025-08-02T09:05:10Z",
+      "last_seen": "2025-08-02T16:20:30Z",
+      "device_type": "tablet",
+      "zone": "Cafe"
+    },
+    {
+      "mac": "00:1a:2b:3c:4d:5e",
+      "signal_strength": -55,
+      "ssids": ["Staff_WiFi"],
+      "first_seen": "2025-08-02T08:00:00Z",
+      "last_seen": "2025-08-02T17:30:00Z",
+      "device_type": "iot",
+      "zone": "Shop"
+    },
+    {
+      "mac": "d8:3a:dd:11:22:33",
+      "signal_strength": -90,
+      "ssids": ["Guest_WiFi"],
+      "first_seen": "2025-08-02T14:10:05Z",
+      "last_seen": "2025-08-02T14:45:30Z",
+      "device_type": "smartphone",
+      "zone": "Entry"
+    }
+  ],
+  "access_points": [
+    {
+      "bssid": "00:11:22:33:44:55",
+      "ssid": "Guest_WiFi",
+      "encryption": "WPA2",
+      "channel": 6,
+      "signal_strength": -40
+    },
+    {
+      "bssid": "aa:bb:cc:dd:ee:ff",
+      "ssid": "Staff_WiFi",
+      "encryption": "WPA3",
+      "channel": 11,
+      "signal_strength": -35
+    },
+    {
+      "bssid": "12:34:56:78:90:ab",
+      "ssid": "Cafe_Network",
+      "encryption": "WPA2",
+      "channel": 1,
+      "signal_strength": -45
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert-001",
+      "type": "rogue_ap",
+      "severity": "high",
+      "message": "Rogue AP detected with SSID 'Free_Public_WiFi' on channel 6",
+      "timestamp": "2025-08-02T12:30:45Z"
+    },
+    {
+      "id": "alert-002",
+      "type": "mac_spoofing",
+      "severity": "medium",
+      "message": "Possible MAC address spoofing detected for vendor 'Apple' with multiple MACs",
+      "timestamp": "2025-08-02T13:15:22Z"
+    }
+  ]
+}
